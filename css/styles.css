@@ -1,7 +1,35 @@
-
 .page {
     box-sizing: border-box;
-    height: 100vh; /* Takes up exactly the full height of the browser screen */
+    min-height: 55vh;
     padding: 40px;
-    border-bottom: 2px solid #000000; /* Optional visual "break" line */
+    border-bottom: 2px solid #000000;
+}
+
+.navbar {
+    width: fit-content;
+    background-color: #779796;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: powderblue;
+}
+ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style-position: inside;
+}
+ol {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style-position: inside;
 }
