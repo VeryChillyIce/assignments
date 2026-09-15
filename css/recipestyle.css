@@ -5,25 +5,32 @@ body {
   color: #333;
 }
 
-.recipe-title {
+#recipe-title {
   color: #8b4513;
   text-align: center;
   font-size: 36px;
 }
 
+.recipe-layout {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.recipe-layout img {
+  width: 230px;
+  height: auto;
+  border: 5px solid #8b4513;
+}
+
 #ingredients {
+  flex: 1;
   background-color: #f9e4c9;
   padding: 20px;
-  margin-top: 20px;
 }
 
 #instructions {
   background-color: #f5f5dc;
   padding: 20px;
   margin-top: 20px;
-}
-
-.source {
-  font-style: italic;
-  text-align: center;
 }
