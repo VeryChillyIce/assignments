@@ -34,3 +34,22 @@ body {
   padding: 20px;
   margin-top: 20px;
 }
+
+.navbar {
+    width: fit-content;
+    background-color: #779796;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: powderblue;
+}
