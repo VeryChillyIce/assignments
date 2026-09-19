@@ -6,22 +6,19 @@
 }
 
 .navbar {
-    width: fit-content;
-    background-color: #779796;
+    background-color: #a6d2d1;
     padding: 15px;
     margin: 20px auto;
-    border-radius: 10px;
 }
 
 .navbar a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
     margin: 0 20px;
     font-size: 18px;
 }
 
 .navbar a:hover {
-    color: powderblue;
+    color: rgb(117, 117, 117);
 }
 
 ul {

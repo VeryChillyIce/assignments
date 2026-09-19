@@ -1,55 +1,24 @@
 body {
-  background-color: #fffaf0;
+  background-color: powderblue;
   font-family: Arial, sans-serif;
   padding: 30px;
   color: #333;
 }
 
-#recipe-title {
-  color: #8b4513;
+.recipe-title {
   text-align: center;
-  font-size: 36px;
 }
 
-.recipe-layout {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+/*Used https://www.w3schools.com/css/css3_image_center.asp to learn to center the image */
+/* set the margin to auto (auto centers the block), but can't effect inline elements (items that dont start on a new line and only takes up the amount of space that it needs to)
+so we change the type of the image to a block so that it can be changed, and then set the image width so that it is centered*/
+
+.pasta-image {
+  display:block;
+  margin:auto;
+  width: 400px;
 }
 
-.recipe-layout img {
-  width: 230px;
-  height: auto;
-  border: 5px solid #8b4513;
-}
-
-#ingredients {
-  flex: 1;
-  background-color: #f9e4c9;
-  padding: 20px;
-}
-
-#instructions {
-  background-color: #f5f5dc;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.navbar {
-    width: fit-content;
-    background-color: #779796;
-    padding: 15px;
-    margin: 20px auto;
-    border-radius: 10px;
-}
-
-.navbar a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 18px;
-}
-
-.navbar a:hover {
-    color: powderblue;
+#how-to-make {
+  margin: 20px;
 }
