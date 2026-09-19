@@ -2,7 +2,7 @@ body {
   background-color: powderblue;
   font-family: Arial, sans-serif;
   padding: 30px;
-  color: #333;
+  color: black;
 }
 
 .recipe-title {
@@ -21,4 +21,17 @@ so we change the type of the image to a block so that it can be changed, and the
 
 #how-to-make {
   margin: 20px;
+  padding: 10px;
+  background-color: rgb(79, 165, 165);
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+a {
+    color:#000000;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: blue;
 }
