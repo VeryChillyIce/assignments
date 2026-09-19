@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+
+@font-face {
+  font-family: "BigBlueTerminal";
+  src: url("../fonts/BigBlueTerminal.ttf") format("truetype");
+}
+
+body {
+  font-family: "Black Ops One", serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: powderblue;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+blockquote {
+  font-family: "BigBlueTerminal", serif;
+  font-style: italic;
+}
+
+li {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2em;
+  font-variant: small-caps;
+}
+ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style-position: inside;
+}
+
+.navbar {
+    width: fit-content;
+    background-color: #779796;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: powderblue;
+}
