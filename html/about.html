@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Me!</title>
-    <link rel="stylesheet" href="../css/styles.css">
 </head>
+<style>
+    a {
+        color:#000000;
+        text-decoration: none;
+    }
+    a:hover {
+        color:rgb(28, 17, 251);
+    }
+</style>
 
 <body style="background-color: powderblue; text-align: center; padding: 20px;">
     <h1 style="font-size: 50px;">
        All about me!
     </h1>
-    <nav class="navbar">
-    <a href="#interests">My Interests</a>
-    <a href="#random-things">Random Things</a>
-</nav>
+
+    <div style="font-size: 20px; background-color: #51a3c1; padding: 10px; width: fit-content; margin: auto; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <a href="#interests" style="padding: 10px;">My Interests</a>
+    <a href="#random-things" style="padding: 10px" >Random Things</a>
+    </div>
+    
+
+    <br>
     <img src="../img/me.jpg" alt="A picture of me" width="150" style="border: 5px solid #000000; border-radius: 10px;">
-    <div id="interests" class="page">
+    <div id="interests">
         <h2>
             My Interests
         </h2>
@@ -30,14 +42,18 @@
         <p style="font-size: 20px;">
             Outside of school, I like to:
         </p>
-       <ul>
+       <ul style="list-style-position: inside;">
         <li>Swim</li>
         <li>Play Basketball</li> 
-        <li>And Play Tennis</li>
+        <li>Play Tennis</li>
+        <li>Game</li>
+        <li>And Code!</li>
        </ul>
     </div>
-
-    <div id="random-things" class="page">
+    <h1>
+        ______________________________________________________________________________________
+    </h1>
+    <div id="random-things">
         <h2>
             Some random and cool things in HTML!
         </h2>
@@ -50,7 +66,7 @@
         <pre style="font-size: 20px;text-align: center;">
 This         is           a          reeeeeeaaaaly<br>
 wonky     sentence         using        &lt;pre&gt;. <br>
-This contains some code down here!
+This contains some code down here using &lt;code&gt;!
         </pre>
         <pre style="font-size: 20px; text-align: left;"><code >
             import random
@@ -63,7 +79,8 @@ This contains some code down here!
             random.shuffle(colors)
             print(colors)
         </code></pre>
-    <ol>
+        
+    <ol style="list-style-position: inside;">
         <li>
             Wow!
         </li>
