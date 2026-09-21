@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: FontdinerSwanky;
+    src: url(../fonts/FontdinerSwanky-Regular.ttf)
+}
+
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+    margin-bottom: -20px
+}
+
+h2 {
+    font-family: 'Changa One', serif;
+    font-size: 40px;
+}
+
+p1 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+p2 {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+p3 {
+    font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    list-style-position: inside;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+blockquote {
+    font-family: FontdinerSwanky;
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#000000;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: blue;
+}
