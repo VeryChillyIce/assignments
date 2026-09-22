@@ -5,10 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Working with Forms</title>
 </head>
-<body>
-    <p>What is your favorite coding language?</p>
-    <form>
+<style>
+    a {
+        color:#000000;
+        text-decoration: none;
+        padding: 5px;
+    }
+    a:hover {
+        color: blue;
+    }
+</style>
+<body style="background-color: powderblue; text-align: center;">
+    <h1>Cool Form!</h1>
+    <div style="font-size: 20px; background-color: #51a3c1; padding: 10px; width: fit-content; margin: auto;  margin-bottom: 10px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border: 3px solid black; border-radius: 3px;">
+        <a href="../../index.html">Home Directory</a>
+    </div>
+    <form style="font-size: 20px;">
+        <p>What is your favorite coding language?</p>
         <input type="text">
+        <p>What is your favorite animal?</p>
+        <input type="radio" id="cat" name="pet" value="Cats">
+        <label for="cat">I love cats! 🐈</label><br>
+        <input type="radio" id="dog" name="pet" value="Dogs">
+        <label for="dog">I love dogs! 🐕</label><br>
+        <input type="radio" id="other" name="pet">
+        <input type="text" id="other" name="pet"><br>
+        <br>
+        <p>What date are you doing this form on?</p>
+        <input type="date" >
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="reset" value="Reset Form" style="margin-top: 10px;">
     </form>
 </body>
 </html>
