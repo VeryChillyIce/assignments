@@ -5,3 +5,34 @@
 th {
     text-align: center;
 }
+
+.country {
+    color: white;
+    background-color:skyblue ;
+    text-align: left;
+}
+
+td {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.para {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: rgb(155, 211, 42);
+    color:white
+}
+
+a {
+    color:#000000;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: blue;
+}
