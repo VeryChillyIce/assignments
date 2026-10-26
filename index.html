@@ -6,19 +6,40 @@
     <title>Home Directory</title>
 </head>
 <style>
+
+    nav {
+        font-size: 20px;
+        background-color: #51a3c1;
+        padding: 10px;
+        width: fit-content;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 3px solid black;
+        border-radius: 3px;
+        width: 1000px;
+        height: 100px;
+    }
+
     a {
+        text-align: center;
         color:#000000;
         text-decoration: none;
-        padding: 5px;
+        padding: 12px;
+        display: inline-block;
+        /* https://www.w3schools.com/css/css3_transitions.asp */
+        /* Essentially what this does is just specify for the transitions of the property "transform" to be done over a period of time, and in this case would be a duration 0.15 seconds. */
+        transition: transform 0.15s;
     }
     a:hover {
         color: blue;
+        /* https://www.w3schools.com/css/css3_2dtransforms.asp */
+        /* Essentially what this does is just scale the width and height of the <a> by 1.15, and transition (The above comment) just effects the time it takes to do it */
+        transform: scale(1.15);
     }
 </style>
 <body style="background-color: powderblue; text-align: center; font-size: 25px">
     <h1>Home Directory</h1>
-    <nav style="font-size: 20px; background-color: #51a3c1; padding: 10px; width: fit-content; margin: auto; 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border: 3px solid black; border-radius: 3px;">
+    <nav>
         <a href="1IntroToHTML/about.html">All About Me!</a>
         <a href="2IntroToCSS/html/recipe.html">Cool Recipe</a>
         <a href="3WorkingWithFonts/html/fontshowoff.html">Google Font Showoff</a>
