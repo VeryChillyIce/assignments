@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f1eb;
+  color: #242424;
+}
+
+.page {
+  width: min(100% - 32px, 1000px);
+  margin: 32px auto;
+}
+
+.intro {
+  margin-bottom: 24px;
+}
+
+.card {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+}
+
+.visual {
+  height: 130px;
+  border-radius: 8px;
+  background: #a9c7d8;
+}
+
+.visual-two { background: #a8c58a; }
+.visual-three { background: #697995; }
+.visual-four { background: #d5b48c; }
+.visual-five { background: #668b70; }
+.visual-six { background: #b9c6ce; }
+
+.card h2 {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.gallery { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+    gap: 20px; }
+
+.featured {
+    grid-column: span 2;
+}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Small Moments</h1>
+    <p class="intro">A collection of scenes I enjoy.</p>
+
+    <section class="gallery" aria-label="Photo gallery">
+      <article class="card featured">
+        <div class="visual visual-one" aria-hidden="true"></div>
+        <h2>Morning Light</h2>
+        <p>Sunlight reaches across a quiet room.</p>
+      </article>
+
+      <article class="card">
+        <div class="visual visual-two" aria-hidden="true"></div>
+        <h2>Garden Walk</h2>
+        <p>Green leaves line the path.</p>
+      </article>
+
+      <article class="card">
+        <div class="visual visual-three" aria-hidden="true"></div>
+        <h2>City Evening</h2>
+        <p>Windows glow as the sky turns blue.</p>
+      </article>
+
+      <article class="card">
+        <div class="visual visual-four" aria-hidden="true"></div>
+        <h2>Reading Spot</h2>
+        <p>A favorite place to pause.</p>
+      </article>
+
+      <article class="card">
+        <div class="visual visual-five" aria-hidden="true"></div>
+        <h2>Trail View</h2>
+        <p>A winding trail disappears into the trees.</p>
+      </article>
+
+      <article class="card">
+        <div class="visual visual-six" aria-hidden="true"></div>
+        <h2>Rainy Window</h2>
+        <p>Raindrops soften the view outside.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
+
+<!-- When using repeat, the sizes of the boxes were constant, and they would never auto fit the rows and instead just shrink. When using auto-fit, I can see that it starts out with more boxes per row, and shrinking the page would make it automatically fit to the size of the page, meaning the rows were not constant -->

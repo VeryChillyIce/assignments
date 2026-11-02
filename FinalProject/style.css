@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "AugiePixel";
+    src: url("assets/augiepixel.ttf");
+}
+body {
+    background-color: #9196db;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: "AugiePixel";
+}
+
+nav > a {
+    align-items: center;
+    text-decoration: none;
+    color: #2d282e;
+    font-size: 40px;
+    padding: 12px;
+    font-family: "AugiePixel";
+    display: inline-block;
+    transition: transform 0.15s;
+}
+
+nav > a:hover {
+    color: #92b5db;
+    transform: scale(1.15);
+}
+
+nav {
+    margin: auto;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: #4f62a7;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.attribution {
+    
+}
