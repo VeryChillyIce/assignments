@@ -44,5 +44,8 @@ nav {
 }
 
 .attribution {
-
+    font-size: 14px;
+    color: #2d282e;
+    text-align: center;
+    font-family: "AugiePixel";
 }
