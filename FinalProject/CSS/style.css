@@ -1,6 +1,6 @@
 @font-face {
     font-family: "AugiePixel";
-    src: url("assets/augiepixel.ttf");
+    src: url("../assets/augiepixel.ttf");
 }
 body {
     background-color: #9196db;
@@ -44,5 +44,5 @@ nav {
 }
 
 .attribution {
-    
+
 }
